@@ -3141,6 +3141,11 @@ h6 {
   padding-bottom: 122.9508196721%;
   position: relative;
 }
+@media (any-hover: hover) {
+  .card-catalog__image:hover {
+    opacity: 0.8;
+  }
+}
 .card-catalog__image:not(:last-child) {
   margin-bottom: 1.5rem;
 }
@@ -3153,6 +3158,7 @@ h6 {
   object-fit: contain;
 }
 .card-catalog__title {
+  cursor: pointer;
   font-family: ClashDisplay, sans-serif;
   font-size: 1.25rem;
   line-height: 140%;
