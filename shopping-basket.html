@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Корзина</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240503094935">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__body">
+				<div class="header__line">
+					<div data-da=".header__space, 767.98" class="header__search search-header">
+						<form action="#" class="search-header__form">
+							<button type="submit" class="search-header__button"><img src="img/icons/search.svg" alt="search-icon"></button>
+							<input autocomplete="off" type="text" name="form[]" data-error="error" placeholder="Search" class="search-header__input">
+						</form>
+					</div>
+					<h2 class="header__logo"><a href="../home.html">Avion</a></h2>
+					<div data-da=".items-header__list, 767.98, 0" class="header__sub-menu sub-menu-header">
+						<a href="../shopping-basket.html" class="sub-menu-header__cart"><img src="img/icons/shopping-cart.svg" alt="icon"></a>
+						<a href="" class="sub-menu-header__account"><img src="img/icons/user-avatar.svg" alt="icon"></a>
+					</div>
+					<nav hidden class="header__burger-menu menu-burger">
+						<div hidden class="header__space"></div>
+						<button type="button" class="menu-burger__icon icon-menu"><span></span></button>
+						<nav class="menu-burger__body">
+							<ul class="menu-burger__list">
+								<li class="menu-burger__item-list"><a href="" class="menu-burger__link"></a></li>
+							</ul>
+						</nav>
+					</nav>
+				</div>
+				<div class="header__container">
+					<nav data-da=".menu-burger__body, 767.98" class="header__items items-header">
+						<ul class="items-header__list">
+							<li class="items-header__item"><a href="../catalog.html" class="items-header__link">Plant pots</a></li>
+							<li class="items-header__item"><a href="../catalog.html" class="items-header__link">Ceramics</a></li>
+							<li class="items-header__item"><a href="../catalog.html" class="items-header__link">Tables</a></li>
+							<li class="items-header__item"><a href="../catalog.html" class="items-header__link">Chairs</a></li>
+							<li class="items-header__item"><a href="../catalog.html" class="items-header__link">Crockery</a></li>
+							<li class="items-header__item"><a href="../catalog.html" class="items-header__link">Tableware</a></li>
+							<li class="items-header__item"><a href="../catalog.html" class="items-header__link">Cutlery</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__shopping-cart shopping-cart">
+				<div class="shopping-cart__container">
+					<h2 class="shopping-cart__title">Your shopping cart</h2>
+					<div class="body-cart__row body-cart__row_name">
+						<div class="body-cart__column-name">Product</div>
+						<div class="body-cart__column-name">Quantity</div>
+						<div class="body-cart__column-name body-cart__column-name_total">Total</div>
+					</div>
+					<div class="shopping-cart__body body-cart">
+						<div class="body-cart__row body-cart__row_first">
+							<div class="body-cart__column-item item-column">
+								<a href="" class="item-column__image"><picture><source srcset="img/shopping-cart/greystone-vase.webp" type="image/webp"><img src="img/shopping-cart/greystone-vase.jpg" alt="vase"></picture></a>
+								<div class="item-column__content">
+									<div class="item-column__title">Graystone vase</div>
+									<div class="item-column__description">A timeless ceramic vase with a tri color grey glaze.</div>
+									<div class="item-column__price"><span>£</span><span>85</span></div>
+								</div>
+							</div>
+							<div data-da=".item-column__content, 661" class="body-cart__column-quantity">
+								<div class="quantity">
+									<div class="quantity__button quantity__button_minus _icon-minus"></div>
+									<div class="quantity__input"><input autocomplete="off" type="text" name="form[]" value="1">
+									</div>
+									<div class="quantity__button quantity__button_plus _icon-plus"></div>
+								</div>
+							</div>
+							<div data-da=".item-column__content, 450, 2" class="body-cart__column-price"><span>£</span><span>85</span></div>
+						</div>
+						<div class="body-cart__row">
+							<div class="body-cart__column-item item-column">
+								<a href="" class="item-column__image"><picture><source srcset="img/shopping-cart/white-vase.webp" type="image/webp"><img src="img/shopping-cart/white-vase.jpg" alt="plant"></picture></a>
+								<div class="item-column__content item-column__content_second-item">
+									<div class="item-column__title">Basic white vase</div>
+									<div class="item-column__description">Beautiful and simple this is one for the classics</div>
+									<div class="item-column__price"><span>£</span><span>125</span></div>
+								</div>
+							</div>
+							<div data-da=".item-column__content_second-item, 661" class="body-cart__column-quantity">
+								<div class="quantity">
+									<div class="quantity__button quantity__button_minus _icon-minus"></div>
+									<div class="quantity__input"><input class="quantity__input-item" autocomplete="off" type="text" name="form[]" value="1">
+									</div>
+									<div class="quantity__button quantity__button_plus _icon-plus"></div>
+								</div>
+							</div>
+							<div data-da=".item-column__content_second-item, 450, 2" class="body-cart__column-price"><span>£</span><span>125</span></div>
+						</div>
+					</div>
+					<div class="shopping-cart__footer footer-shopping-cart">
+						<div class="footer-shopping-cart__block">
+							<div class="footer-shopping-cart__subtotal subtotal">Subtotal</div>
+							<div class="footer-shopping-cart__sum">£210</div>
+						</div>
+						<div class="footer-shopping-cart__info">Taxes and shipping are calculated at checkout</div>
+						<a href="" class="footer-shopping-cart__button button">Go to checkout</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<div class="footer__body">
+						<div class="footer__menu menu-footer">
+							<h3 class="menu-footer__title">Menu</h3>
+							<ul class="menu-footer__items">
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">New arrivals</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Best sellers</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Recently viewed</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Popular this week</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">All products</a></li>
+							</ul>
+
+						</div>
+						<div class="footer__categories menu-footer">
+							<h3 class="menu-footer__title">Categories</h3>
+							<ul class="menu-footer__items">
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Crockery</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Furniture</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Homeware</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Plant pots</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Chairs</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Crockery</a></li>
+							</ul>
+						</div>
+						<div class="footer__company menu-footer">
+							<h3 class="menu-footer__title title-footer">Our company</h3>
+							<ul class="menu-footer__items">
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">About us</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Vacancies</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Contact us</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Privacy</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Returns policy</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__subscribe subscribe-footer">
+						<h3 class="subscribe-footer__title">Join our mailing list</h3>
+						<form action="#" class="subscribe-footer__line">
+							<input type="email" name="form[]" data-error="Please, write your email" data-required="email" placeholder="your@email.com" class="subscribe-footer__input">
+							<button type="submit" class="subscribe-footer__button">Sign up</button>
+						</form>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__copyright">Copyright 2022 Avion LTD</div>
+					<div class="footer__social-media social-media-footer">
+						<ul class="social-media-footer__items">
+							<li class="social-media-footer__item"><a class="social-media-footer__link" href=""><picture><source srcset="img/social-icons/linkedin.webp" type="image/webp"><img src="img/social-icons/linkedin.png" alt="linkedin-icon"></picture></a></li>
+							<li class="social-media-footer__item"><a class="social-media-footer__link" href=""><picture><source srcset="img/social-icons/facebook.webp" type="image/webp"><img src="img/social-icons/facebook.png" alt="facebook-icon"></picture></a></li>
+							<li class="social-media-footer__item"><a class="social-media-footer__link" href=""><picture><source srcset="img/social-icons/instagram.webp" type="image/webp"><img src="img/social-icons/instagram.png" alt="instagram-icon"></picture></a></li>
+							<li class="social-media-footer__item"><a class="social-media-footer__link" href=""><picture><source srcset="img/social-icons/skype.webp" type="image/webp"><img src="img/social-icons/skype.png" alt="skype-icon"></picture></a></li>
+							<li class="social-media-footer__item"><a class="social-media-footer__link" href=""><picture><source srcset="img/social-icons/twitter.webp" type="image/webp"><img src="img/social-icons/twitter.png" alt="twitter-icon"></picture></a></li>
+							<li class="social-media-footer__item"><a class="social-media-footer__link" href=""><picture><source srcset="img/social-icons/pinterest.webp" type="image/webp"><img src="img/social-icons/pinterest.png" alt="pinterest-icon"></picture></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js?_v=20240503094935"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js?_v=20240503094935"></script>
+	<script src="js/app.min.js?_v=20240503094935"></script>
+	<!--  -->
+</body>
+
+</html>

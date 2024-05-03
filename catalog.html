@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Каталог</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240503094935">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__body">
+				<div class="header__line">
+					<div data-da=".header__space, 767.98" class="header__search search-header">
+						<form action="#" class="search-header__form">
+							<button type="submit" class="search-header__button"><img src="img/icons/search.svg" alt="search-icon"></button>
+							<input autocomplete="off" type="text" name="form[]" data-error="error" placeholder="Search" class="search-header__input">
+						</form>
+					</div>
+					<h2 class="header__logo"><a href="../home.html">Avion</a></h2>
+					<div data-da=".items-header__list, 767.98, 0" class="header__sub-menu sub-menu-header">
+						<a href="../shopping-basket.html" class="sub-menu-header__cart"><img src="img/icons/shopping-cart.svg" alt="icon"></a>
+						<a href="" class="sub-menu-header__account"><img src="img/icons/user-avatar.svg" alt="icon"></a>
+					</div>
+					<nav hidden class="header__burger-menu menu-burger">
+						<div hidden class="header__space"></div>
+						<button type="button" class="menu-burger__icon icon-menu"><span></span></button>
+						<nav class="menu-burger__body">
+							<ul class="menu-burger__list">
+								<li class="menu-burger__item-list"><a href="" class="menu-burger__link"></a></li>
+							</ul>
+						</nav>
+					</nav>
+				</div>
+				<div class="header__container">
+					<nav data-da=".menu-burger__body, 767.98" class="header__items items-header">
+						<ul class="items-header__list">
+							<li class="items-header__item"><a href="../catalog.html" class="items-header__link">Plant pots</a></li>
+							<li class="items-header__item"><a href="../catalog.html" class="items-header__link">Ceramics</a></li>
+							<li class="items-header__item"><a href="../catalog.html" class="items-header__link">Tables</a></li>
+							<li class="items-header__item"><a href="../catalog.html" class="items-header__link">Chairs</a></li>
+							<li class="items-header__item"><a href="../catalog.html" class="items-header__link">Crockery</a></li>
+							<li class="items-header__item"><a href="../catalog.html" class="items-header__link">Tableware</a></li>
+							<li class="items-header__item"><a href="../catalog.html" class="items-header__link">Cutlery</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__catalog catalog">
+				<div class="catalog__banner banner-catalog">
+					<div class="banner-catalog__container">
+						<h1>All products</h1>
+					</div>
+				</div>
+				<div class="catalog__container">
+					<div data-spollers="992,max" class="spollers catalog__mobile-filter">
+						<div class="spollers__item catalog__spoller">
+							<button type="button" data-spoller class="spollers__title">Filters</button>
+							<div class="spollers__body"></div>
+						</div>
+					</div>
+					<div class="catalog__sorting-filter sorting-filter">
+						<select name="form[]" class="sorting-filter__item">
+							<option value="1" selected>Popular</option>
+							<option value="2">New</option>
+							<option value="3">Price high to low</option>
+							<option value="4">Price low to high</option>
+						</select>
+					</div>
+					<div class="catalog__body">
+						<div class="catalog__filter filter-catalog" data-da=".spollers__body, 991.98">
+							<div class="filter-catalog__block">
+								<div class="filter-catalog__group">
+									<div class="filter-catalog__head">Product type</div>
+									<div class="filter-catalog__item checkbox">
+										<input type="checkbox" id="furniture" name="form[]" data-error class="filter-catalog__input checkbox__input">
+										<label for="furniture" class="filter-catalog__label checkbox__label">Furniture</label>
+									</div>
+									<div class="filter-catalog__item checkbox">
+										<input type="checkbox" id="homeware" name="form[]" data-error class="filter-catalog__input checkbox__input">
+										<label for="homeware" class="filter-catalog__label checkbox__label">Homeware</label>
+									</div>
+									<div class="filter-catalog__item checkbox">
+										<input type="checkbox" id="sofas" name="form[]" data-error class="filter-catalog__input checkbox__input">
+										<label for="sofas" class="filter-catalog__label checkbox__label">Sofas</label>
+									</div>
+									<div class="filter-catalog__item checkbox">
+										<input type="checkbox" id="light-fittings" name="form[]" data-error class="filter-catalog__input checkbox__input" checked>
+										<label for="light-fittings" class="filter-catalog__label checkbox__label">Light fittings</label>
+									</div>
+									<div class="filter-catalog__item checkbox">
+										<input type="checkbox" id="accessories" name="form[]" data-error class="filter-catalog__input checkbox__input">
+										<label for="accessories" class="filter-catalog__label checkbox__label">Accessories</label>
+									</div>
+									<div class="filter-catalog__item checkbox">
+										<input type="checkbox" id="tv-sets" name="form[]" data-error class="filter-catalog__input checkbox__input">
+										<label for="tv-sets" class="filter-catalog__label checkbox__label">Tv-sets</label>
+									</div>
+								</div>
+								<div class="filter-catalog__group">
+									<div class="filter-catalog__head">Price</div>
+									<div class="filter-catalog__item checkbox">
+										<input type="checkbox" id="low-price" name="form[]" class="filter-catalog__input checkbox__input">
+										<label for="low-price" class="filter-catalog__label checkbox__label">0 - 100</label>
+									</div>
+									<div class="filter-catalog__item checkbox">
+										<input type="checkbox" id="middle-price" name="form[]" class="filter-catalog__input checkbox__input">
+										<label for="middle-price" class="filter-catalog__label checkbox__label">101 - 250</label>
+									</div>
+									<div class="filter-catalog__item checkbox">
+										<input type="checkbox" id="high-price" name="form[]" class="filter-catalog__input checkbox__input" checked>
+										<label for="high-price" class="filter-catalog__label checkbox__label">250 +</label>
+									</div>
+								</div>
+								<div class="filter-catalog__group">
+									<div class="filter-catalog__head">Designer</div>
+									<div class="filter-catalog__item checkbox">
+										<input type="checkbox" id="Robert-Smith" name="form[]" class="filter-catalog__input checkbox__input">
+										<label for="Robert-Smith" class="filter-catalog__label checkbox__label">Robert Smith</label>
+									</div>
+									<div class="filter-catalog__item checkbox">
+										<input type="checkbox" id="Liam-Gallagher" name="form[]" class="filter-catalog__input checkbox__input">
+										<label for="Liam-Gallagher" class="filter-catalog__label checkbox__label">Liam Gallagher</label>
+									</div>
+									<div class="filter-catalog__item checkbox">
+										<input type="checkbox" id="Biggie-Smalls" name="form[]" class="filter-catalog__input checkbox__input">
+										<label for="Biggie-Smalls" class="filter-catalog__label checkbox__label">Biggie Smalls</label>
+									</div>
+									<div class="filter-catalog__item checkbox">
+										<input type="checkbox" id="Thom-Yorke" name="form[]" class="filter-catalog__input checkbox__input">
+										<label for="Thom-Yorke" class="filter-catalog__label checkbox__label">Thom Yorke</label>
+									</div>
+								</div>
+							</div>
+							<div class="filter-catalog__button-block"><button class="filter-catalog__button button section-button">Apply</button></div>
+						</div>
+						<div class="catalog__cards cards-catalog">
+							<article class="card-catalog">
+								<a href="product.html" class="card-catalog__image"><picture><source srcset="img/catalog/black-chair.webp" type="image/webp"><img src="img/catalog/black-chair.jpg" alt="black-chair"></picture></a>
+								<h4 class="card-catalog__title">The Dandy chair</h4>
+								<div class="card-catalog__price">£250</div>
+							</article>
+							<article class="card-catalog">
+								<a href="product.html" class="card-catalog__image"><picture><source srcset="img/catalog/beg-vases.webp" type="image/webp"><img src="img/catalog/beg-vases.jpg" alt="beg-vases"></picture></a>
+								<h4 class="card-catalog__title">The Dandy chair</h4>
+								<div class="card-catalog__price">£250</div>
+							</article>
+							<article class="card-catalog">
+								<a href="product.html" class="card-catalog__image"><picture><source srcset="img/catalog/chair-small-yellow-wall.webp" type="image/webp"><img src="img/catalog/chair-small-yellow-wall.jpg" alt="small-chair-yellow-wall"></picture></a>
+								<h4 class="card-catalog__title">The Dandy chair</h4>
+								<div class="card-catalog__price">£250</div>
+							</article>
+							<article class="card-catalog">
+								<a href="product.html" class="card-catalog__image"><picture><source srcset="img/catalog/modern-vase.webp" type="image/webp"><img src="img/catalog/modern-vase.jpg" alt="modern-vase"></picture></a>
+								<h4 class="card-catalog__title">The Dandy chair</h4>
+								<div class="card-catalog__price">£250</div>
+							</article>
+							<article class="card-catalog">
+								<a href="product.html" class="card-catalog__image"><picture><source srcset="img/catalog/lamp-on-blue.webp" type="image/webp"><img src="img/catalog/lamp-on-blue.jpg" alt="lamp"></picture></a>
+								<h4 class="card-catalog__title">The Dandy chair</h4>
+								<div class="card-catalog__price">£250</div>
+							</article>
+							<article class="card-catalog">
+								<a href="product.html" class="card-catalog__image"><picture><source srcset="img/catalog/monochrome-chair.webp" type="image/webp"><img src="img/catalog/monochrome-chair.jpg" alt="chair"></picture></a>
+								<h4 class="card-catalog__title">The Dandy chair</h4>
+								<div class="card-catalog__price">£250</div>
+							</article>
+							<article class="card-catalog">
+								<a href="product.html" class="card-catalog__image"><picture><source srcset="img/catalog/bronze-lamps.webp" type="image/webp"><img src="img/catalog/bronze-lamps.jpg" alt="lamps"></picture></a>
+								<h4 class="card-catalog__title">The Dandy chair</h4>
+								<div class="card-catalog__price">£250</div>
+							</article>
+							<article class="card-catalog">
+								<a href="product.html" class="card-catalog__image"><picture><source srcset="img/catalog/white-scandy-vase.webp" type="image/webp"><img src="img/catalog/white-scandy-vase.jpg" alt="vase"></picture></a>
+								<h4 class="card-catalog__title">The Dandy chair</h4>
+								<div class="card-catalog__price">£250</div>
+							</article>
+							<article class="card-catalog">
+								<a href="product.html" class="card-catalog__image"><picture><source srcset="img/catalog/chairs-yellow-green-pink.webp" type="image/webp"><img src="img/catalog/chairs-yellow-green-pink.jpg" alt="chairs-yellow-green-pink"></picture></a>
+								<h4 class="card-catalog__title">The Dandy chair</h4>
+								<div class="card-catalog__price">£250</div>
+							</article>
+						</div>
+					</div>
+					<div class="catalog__button-block"><button class="catalog__button button section-button">Load more</button></div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<div class="footer__body">
+						<div class="footer__menu menu-footer">
+							<h3 class="menu-footer__title">Menu</h3>
+							<ul class="menu-footer__items">
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">New arrivals</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Best sellers</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Recently viewed</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Popular this week</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">All products</a></li>
+							</ul>
+
+						</div>
+						<div class="footer__categories menu-footer">
+							<h3 class="menu-footer__title">Categories</h3>
+							<ul class="menu-footer__items">
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Crockery</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Furniture</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Homeware</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Plant pots</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Chairs</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Crockery</a></li>
+							</ul>
+						</div>
+						<div class="footer__company menu-footer">
+							<h3 class="menu-footer__title title-footer">Our company</h3>
+							<ul class="menu-footer__items">
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">About us</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Vacancies</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Contact us</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Privacy</a></li>
+								<li class="menu-footer__item"><a class="menu-footer__link" href="">Returns policy</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__subscribe subscribe-footer">
+						<h3 class="subscribe-footer__title">Join our mailing list</h3>
+						<form action="#" class="subscribe-footer__line">
+							<input type="email" name="form[]" data-error="Please, write your email" data-required="email" placeholder="your@email.com" class="subscribe-footer__input">
+							<button type="submit" class="subscribe-footer__button">Sign up</button>
+						</form>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__copyright">Copyright 2022 Avion LTD</div>
+					<div class="footer__social-media social-media-footer">
+						<ul class="social-media-footer__items">
+							<li class="social-media-footer__item"><a class="social-media-footer__link" href=""><picture><source srcset="img/social-icons/linkedin.webp" type="image/webp"><img src="img/social-icons/linkedin.png" alt="linkedin-icon"></picture></a></li>
+							<li class="social-media-footer__item"><a class="social-media-footer__link" href=""><picture><source srcset="img/social-icons/facebook.webp" type="image/webp"><img src="img/social-icons/facebook.png" alt="facebook-icon"></picture></a></li>
+							<li class="social-media-footer__item"><a class="social-media-footer__link" href=""><picture><source srcset="img/social-icons/instagram.webp" type="image/webp"><img src="img/social-icons/instagram.png" alt="instagram-icon"></picture></a></li>
+							<li class="social-media-footer__item"><a class="social-media-footer__link" href=""><picture><source srcset="img/social-icons/skype.webp" type="image/webp"><img src="img/social-icons/skype.png" alt="skype-icon"></picture></a></li>
+							<li class="social-media-footer__item"><a class="social-media-footer__link" href=""><picture><source srcset="img/social-icons/twitter.webp" type="image/webp"><img src="img/social-icons/twitter.png" alt="twitter-icon"></picture></a></li>
+							<li class="social-media-footer__item"><a class="social-media-footer__link" href=""><picture><source srcset="img/social-icons/pinterest.webp" type="image/webp"><img src="img/social-icons/pinterest.png" alt="pinterest-icon"></picture></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js?_v=20240503094935"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js?_v=20240503094935"></script>
+	<script src="js/app.min.js?_v=20240503094935"></script>
+	<!--  -->
+</body>
+
+</html>
